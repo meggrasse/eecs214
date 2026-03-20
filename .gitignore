@@ -1,4 +1,4 @@
-# Unmanaged resources
+# Unmanaged resource
 rsrc/
 
 # Vim swap files
@@ -12,3 +12,10 @@ rsrc/
 
 # Mac desktop settings
 .DS_Store
+
+# Xcode user state/artifacts
+xcuserdata/
+*.xcuserstate
+
+# JetBrains artifacts
+.idea/

@@ -1,16 +1,16 @@
 # The files to test the program on:
-TESTFILES = bit_io.cpp
+TESTFILES = bit_io.cpp hamlet.txt all.cpp all.dat kjv.txt small.txt
 
 # Uncomment this next line to build on Cygwin/Windows:
 # EXE_EXT = .exe
 
 # C++ source and header files that `huff` depends on:
-HUFF_SRC = huff.cpp bit_io.cpp
-HUFF_INC = bit_io.hpp
+HUFF_SRC = huff.cpp bit_io.cpp classes.cpp
+HUFF_INC = bit_io.hpp classes.hpp
 
 # C++ source and header files that `puff` depends on:
-PUFF_SRC = puff.cpp bit_io.cpp
-PUFF_INC = bit_io.hpp
+PUFF_SRC = puff.cpp bit_io.cpp classes.cpp
+PUFF_INC = bit_io.hpp classes.hpp
 
 ###
 ### You shouldn't need to modify anything below this line unless you

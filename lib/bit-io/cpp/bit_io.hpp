@@ -275,7 +275,7 @@ namespace eecs214 {
         while (n--) {
             write(value >> n & 1);
         }
-
+	
         return *this;
     }
 
